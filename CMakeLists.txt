@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.4)
-set(CMAKE_CXX_STANDARD 14)
 project(DevOps_pipeline_testing)
-
 include(CTest)
-add_subdirectory(source)
+enable_testing()
+set(CMAKE_CXX_STANDARD 14)
+
 add_subdirectory(tests)
+add_subdirectory(source)
