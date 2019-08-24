@@ -8,4 +8,4 @@ add_library(${TARGET_NAME}
 target_include_directories(${TARGET_NAME}
   INTERFACE ./)
  
-install(TARGETS ${TARGET_NAME}lib/)
+install(TARGETS ${TARGET_NAME})
