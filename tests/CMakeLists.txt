@@ -1,6 +1,8 @@
 set(UNIT_TEST_LIST
   string_utils)
- 
+
+ENABLE_TESTING()
+
 foreach(NAME IN LISTS UNIT_TEST_LIST)
   list(APPEND UNIT_TEST_SOURCE_LIST ${NAME}.test.cpp)
 endforeach()
