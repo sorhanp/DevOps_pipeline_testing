@@ -3,14 +3,14 @@ set(UNIT_TEST_LIST
 
 message("Going through the sources: \n")  
 foreach(NAME IN LISTS UNIT_TEST_LIST)
-  message(NAME)
+  message(${NAME})
   message("\n")
   list(APPEND UNIT_TEST_SOURCE_LIST ${NAME}.test.cpp)
 endforeach()
 
 message("The test files are as follows: \n")  
 foreach(NAME IN LISTS UNIT_TEST_SOURCE_LIST)
-  message(NAME)
+  message(${NAME})
   message("\n")
 endforeach()
 
