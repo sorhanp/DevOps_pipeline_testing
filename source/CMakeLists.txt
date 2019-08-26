@@ -9,4 +9,4 @@ target_include_directories(${TARGET_NAME}
   INTERFACE ./)
  
 install(TARGETS ${TARGET_NAME}
-  ARCHIVE DESTINATION lib/)
+  DESTINATION bin)
