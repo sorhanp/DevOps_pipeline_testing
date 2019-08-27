@@ -3,7 +3,6 @@ set(CMAKE_CXX_STANDARD 14)
 project(DevOps_pipeline_testing)
 
 include(CTest)
-enable_testing()
 
 add_subdirectory(source)
 add_subdirectory(tests)
