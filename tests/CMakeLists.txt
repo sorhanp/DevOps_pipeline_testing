@@ -5,12 +5,12 @@ foreach(NAME IN LISTS UNIT_TEST_LIST)
   list(APPEND UNIT_TEST_SOURCE_LIST ${NAME}.test.cpp)
 endforeach()
 
-message("-------------------------------:")  
+message(":-------------------------------:")  
 message("The test files are as follows:")  
 foreach(NAME IN LISTS UNIT_TEST_SOURCE_LIST)
   message(${NAME})
 endforeach()
-message("-------------------------------:")  
+message(":-------------------------------:")  
 
 set(TARGET_NAME tests)
  
