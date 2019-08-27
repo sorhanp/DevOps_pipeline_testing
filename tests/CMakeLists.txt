@@ -2,7 +2,6 @@ set(UNIT_TEST_LIST
   string_utils)
 
 foreach(NAME IN LISTS UNIT_TEST_LIST)
-  message(${NAME})
   list(APPEND UNIT_TEST_SOURCE_LIST ${NAME}.test.cpp)
 endforeach()
 
@@ -10,7 +9,6 @@ message("The test files are as follows: \n")
 foreach(NAME IN LISTS UNIT_TEST_SOURCE_LIST)
   message(${NAME})
 endforeach()
-message("\n")
 
 set(TARGET_NAME tests)
  
